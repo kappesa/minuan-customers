@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Minuan</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.4/angular.min.js"></script>
+</head>
+<body>
+  <div ng-app="MinuanApp" ng-controller="clientController">
+
+  <form class="CreateCity">
+    <h1>Agregar una localidad</h1>
+    <input type="text" class="name" placeholder="Nombre">
+    <input type="text" class="postal" placeholder="Codigo Postal">
+    <select ng-model="provinceId" class="provinceId">
+      <option ng-repeat="p in provinces" value="{{p.id}}">{{p.name}}</option>
+    </select>
+
+    <input type="submit" value="Agregar Localidad">
+  </form>
+
+  </div>
+
+  <script src="/app.js"></script>
+  <script src="/clientApp.js"></script>
+</body>
+</html>

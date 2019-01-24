@@ -1,0 +1,26 @@
+{
+  "name": "minuan-customers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adrian Kappes",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "knex": "^0.15.2",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kappesa/minuan-customers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kappesa/minuan-customers/issues"
+  },
+  "homepage": "https://github.com/kappesa/minuan-customers#readme",
+  "description": ""
+}
